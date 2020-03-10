@@ -1,17 +1,163 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+<ion-content [fullscreen]="true" class="bg-image no-scroll">
+  <mat-toolbar>
+    
+    <mat-toolbar-row>
+      <h1 style="font-weight: bolder;font-size: 30px;">Smart Home</h1>
+      <span class="example-spacer"></span>
+      <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">settings</mat-icon>
+    </mat-toolbar-row>
+  </mat-toolbar>
+
+  <mat-grid-list cols="3" rowHeight="2:1"style="background-color:#4f5b62;">
+    <mat-grid-tile >
+      <div class="t1">
+        <div   class="t2">
+          <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon" >gradient</mat-icon>
+        </div>
+        <div class="t3">50%<br>Humidity
+        </div>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <div class="t1">
+        <div class="t2" >
+          <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">wb_incandescent</mat-icon>
+        </div>
+        <div class="t3">72 F<br>Temprature
+        </div>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <div class="t1">
+        <div class="t2">
+          <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">power</mat-icon>
+        </div>
+        <div class="t3">1200 W<br>Power
+        </div>
+      </div>
+    </mat-grid-tile>
+  </mat-grid-list>
+  <mat-grid-list cols="3" rowHeight="2:1" style="border-top: 1px solid white;background-color:#4f5b62;">
+    <mat-grid-tile style="margin-left: 15px;">
+      <div class="t1">
+        <div class="t2">
+          <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon" style ="padding-left: -20px;;">keyboard_voice</mat-icon>
+        </div>
+        <div class="t3">Voice<br>Voice control.
+        </div>
+      </div>
+    </mat-grid-tile>
+  
+    <mat-grid-tile style="margin-left:100px;">
+      <div class="t1" >
+        <div class="t2">
+          <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">add_circle_outline</mat-icon>
+        </div>
+        <div class="t3" >Add <br>Add devices.
+        </div>
+      </div>
+    </mat-grid-tile>
+  </mat-grid-list>
+
+<div style=" margin-top: -10px;">
+  <h1 style="color: white; margin-left: 15px;">DEVICES</h1>
+  <mat-grid-list cols="3" style="margin-top: -10px;" >
+    <mat-grid-tile>
+      <div class="r1">
+        <div   class="r2">
+          <img src="assets/images/living-room.png" style="width: 50px; height: 50px;"/>
+        </div>
+        <br>
+        <div class="r3">Lights
+        </div>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <div class="r1">
+        <div   class="r2">
+          <img src="assets/images/hotel.png" style="width: 50px; height: 50px;"/>
+        </div>
+        <br>
+        <div class="r3">Fans
+        </div>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <div class="r1">
+        <div   class="r2">
+          <img src="assets/images/dinning-table.png" style="width: 50px; height: 50px;"/>
+        </div>
+        <br>
+        <div class="r3">Door Lock
+        </div>
+      </div>
+    </mat-grid-tile>
+  </mat-grid-list>
+  <mat-grid-list cols="3">
+    <mat-grid-tile>
+      <div class="r1">
+        <div   class="r2">
+          <img src="assets/images/kitchen.png" style="width: 50px; height: 50px;"/>
+        </div>
+        <br>
+        <div class="r3">Oven
+        </div>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <div class="r1">
+        <div   class="r2">
+          <img src="assets/images/hotel.png" style="width: 50px; height: 50px;"/>
+        </div>
+        <br>
+        <div class="r3">Blinds
+        </div>
+      </div>
+    </mat-grid-tile>
+    
+  </mat-grid-list>
+
+</div>
+
+<div style="margin-top: -15px;">
+  <h1 style="color: white; margin-left: 15px;">MOODS</h1>
+  <mat-grid-list cols="3" style="margin-top: -15px;">
+    <mat-grid-tile>
+      <div class="r1">
+        <div   class="r2">
+          <mat-icon class="example-iconn" aria-hidden="false" aria-label="Example user verified icon">sentiment_very_satisfied</mat-icon>
+        </div>
+        <br>
+        <div class="r3">Chill
+        </div>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <div class="r1">
+        <div   class="r2">
+          <mat-icon class="example-iconn" aria-hidden="false" aria-label="Example user verified icon">sentiment_very_dissatisfied</mat-icon>
+        </div>
+        <br>
+        <div class="r3">Sad
+        </div>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <div class="r1">
+        <div   class="r2">
+          <mat-icon class="example-iconn" aria-hidden="false" aria-label="Example user verified icon">emoji_nature</mat-icon>
+        </div>
+        <br>
+        <div class="r3">Nature
+        </div>
+      </div>
+    </mat-grid-tile>
+  </mat-grid-list>
+
+</div>
+
+  
 </ion-content>
+

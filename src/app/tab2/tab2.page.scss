@@ -1,3 +1,108 @@
 ion-content ion-toolbar {
   --background: translucent;
 }
+
+.bg-image {
+  // background: url('../../assets/images/bg.jpg') no-repeat center center fixed;
+  // background-size: cover;
+}
+
+.no-scroll .scroll-content {
+  overflow: hidden;
+}
+
+ion-toolbar {
+  --background: transparent;
+  --ion-color-base: transparent !important;
+}
+
+ion-list {
+  --background: transparent;
+  --ion-color-base: transparent !important;
+}
+
+ion-card {
+  --background: transparent;
+  --ion-color-base: transparent !important;
+}
+ion-item {
+  --background: transparent;
+  --ion-color-base: transparent !important;
+}
+
+ion-label {
+  --background: transparent;
+  --ion-color-base: transparent !important;
+}
+ion-card-header {
+  --background: transparent;
+  --ion-color-base: transparent !important;
+}
+ion-content {
+  // --background: url('../../assets/images/bg.jpg') no-repeat center center fixed cover;
+  // --background-size: cover;
+}
+.example-icon {
+  // padding: 0 14px;
+  color: white;
+ 
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+.room-list{
+ 
+}
+.room-list h1{
+  margin-left: 15px;
+  color: white;
+}
+.room-list mat-card{
+  margin-top: 10px;
+}
+.example-card {
+  max-width: 100%;
+}
+.example-iconn {
+  // padding: 0 14px;
+  color: white;
+  font-size: 40px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.heading{
+  text-align: center;
+  color:white;
+  padding-top: 10px;
+  background-color: sandybrown;
+}
+.t1{
+  display: inline-flex;
+ }
+ .t2{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+  
+ }
+ .t3{
+   float: inline-end;
+    color: white; 
+    font-weight: bold;
+    padding-left: 30px;
+    font-size: 15px;
+ }
+.left{
+  width: 25%;
+  height: 70px;
+  float: inline-start;
+
+}
+.right{
+  margin-left: 25%; 
+  margin-top: -80px;
+  
+}
