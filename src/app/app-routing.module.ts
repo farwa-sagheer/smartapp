@@ -9,6 +9,34 @@ const routes: Routes = [
   {
     path: 'living',
     loadChildren: () => import('./living-room/living.module').then( m => m.LivingPageModule)
+  },
+  {
+    path: 'bedroom',
+    loadChildren: () => import('./bedroom/bedroom.module').then( m => m.BedroomPageModule)
+  },
+  {
+    path: 'kitchen',
+    loadChildren: () => import('./kitchen/kitchen.module').then( m => m.KitchenPageModule)
+  },
+  {
+    path: 'dinningroom',
+    loadChildren: () => import('./dinningroom/dinningroom.module').then( m => m.DinningroomPageModule)
+  },
+  {
+    path: 'editprofile',
+    loadChildren: () => import('./editprofile/editprofile.module').then( m => m.EditprofilePageModule)
+  },
+  {
+    path: 'welcome',
+    loadChildren: () => import('./welcome/welcome.module').then( m => m.WelcomePageModule)
+  },
+  {
+    path: 'signin',
+    loadChildren: () => import('./signin/signin.module').then( m => m.SigninPageModule)
+  },
+  {
+    path: 'signup',
+    loadChildren: () => import('./signup/signup.module').then( m => m.SignupPageModule)
   }
 ];
 @NgModule({

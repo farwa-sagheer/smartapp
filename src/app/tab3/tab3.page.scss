@@ -1,95 +1,138 @@
-
-// .bg-image {
-//   background: url('../../assets/images/img.jpg') no-repeat center center fixed;
-//   background-size: cover;
-// }
-
-.no-scroll .scroll-content {
-  overflow: hidden;
-}
-
-ion-toolbar {
-  --background: transparent;
-  --ion-color-base: transparent !important;
-}
-
-ion-list {
-  --background: transparent;
-  --ion-color-base: transparent !important;
-}
-
-ion-card {
-  --background: transparent;
-  --ion-color-base: transparent !important;
-}
-ion-item {
-  --background: transparent;
-  --ion-color-base: transparent !important;
-}
-
-ion-label {
-  --background: transparent;
-  --ion-color-base: transparent !important;
-}
-ion-card-header {
-  --background: transparent;
-  --ion-color-base: transparent !important;
-}
-ion-content {
-  --ion-background-color: #11181F;
+.example-card {
+  max-width: 100%;
+  height:150px;
+  background-color: #0C1B32;
 }
 .example-icon {
   // padding: 0 14px;
   color: white;
  
 }
-
+.example-header-image {
+  background: url('../../assets/images/enigma.jpg');
+  background-size: cover;
+  margin-top: 60px;
+}
+.profile{
+  margin-left: -140px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 15px;
+  
+}
 .example-spacer {
   flex: 1 1 auto;
 }
-.example-iconn {
-  // padding: 0 14px;
-  color: white;
-  font-size: 40px;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
- 
+.header{
+  margin-top: 20px;
+}
+.example-icoo{
+  margin-top: 60px;
+  margin-left: 230px;
 }
 .t1{
- display: inline-flex;
-
-}
-.t2{
-  display:flex;
-  justify-content: center;
-  align-items: center;
+  display: inline-flex;
  
-}
-.t3{
-  float: inline-end;
-   color: white; 
-   font-weight: bold;
-   padding-left: 10px;
-   font-size: 15px;
-}
-.r1{
-  border: solid 1px white;
-  width:100px;
-  background-color:#4f5b62;
  }
- .r2{
+ .t2{
    display:flex;
    justify-content: center;
    align-items: center;
-   margin-top: 10px;
   
  }
- .r3{
-    color: white; 
+ .t3{
+   float: inline-end;
+    color:grey; 
     font-weight: bold;
+    padding-left: 10px;
     font-size: 15px;
-   text-align: center;
-    margin-bottom: 10px;
  }
+ .r1{
+   border: solid 1px white;
+   border-radius: 3px;
+   box-shadow: white 5px;
+   width:65px;
+   background-color:red;
+   height: 65px;
+  }
+  .r2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:5px;
+   
+   
+  }
+  .r3{
+     color: grey;
+     font-weight: bold;
+     font-size: 11px;
+    margin-top: 10px;
+    width: 65px;
+    margin-left: -12px;
+   
+     
+  }
+  .r11{
+    border: solid 1px white;
+    border-radius: 5px;
+    box-shadow: white 5px;
+    width:65px;
+    background-color:white;
+    height: 65px;
+   }
+   .r22{
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 5px;
+    
+    
+   }
+   .r33{
+      color: grey;
+      font-weight: bold;
+      font-size: 11px;
+     text-align: center;
+     margin-top: 10px;
+     width: 65px;
+     margin-left: -15px;
+   }
+  .example-iconnn{
+      color:black;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+  }
+  .example-icen{
+    font-size: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+  }
+  .example-iceen{
+    font-size: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #C7CAD2;
+  }
+ 
+  .l11{
+    background-color: white;
+    margin-top: 5px;
+  }
+  .ico{
+    margin-left: -18px;
+  }
+  .l2{
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center;
+    color: #4f5b62;
+  }
+  .iconoo{
+    color: #4f5b62;
+  }

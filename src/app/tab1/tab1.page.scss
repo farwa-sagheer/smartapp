@@ -36,7 +36,7 @@ ion-card-header {
   --ion-color-base: transparent !important;
 }
 ion-content {
-  --ion-background-color: #11181F;
+  --ion-background-color: white;
 }
 .example-icon {
   // padding: 0 14px;
@@ -49,13 +49,13 @@ ion-content {
 }
 .example-iconn {
   // padding: 0 14px;
-  color: white;
+  color: grey;
   font-size: 40px;
   display:flex;
   justify-content: center;
   align-items: center;
   margin-top: 10px;
- 
+ font-weight: normal;
 }
 .t1{
  display: inline-flex;
@@ -76,7 +76,9 @@ ion-content {
 .r1{
   border: solid 1px white;
   width:100px;
-  background-color:#4f5b62;
+  background-color:white;
+    border-radius: 4px;
+    box-shadow: 0 0 15px  rgba(0, 0, 0, 0.08); 
  }
  .r2{
    display:flex;
@@ -86,7 +88,7 @@ ion-content {
   
  }
  .r3{
-    color: white; 
+    color:grey ; 
     font-weight: bold;
     font-size: 15px;
    text-align: center;

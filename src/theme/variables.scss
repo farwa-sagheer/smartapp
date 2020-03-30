@@ -5,7 +5,7 @@
 :root {
   /** primary **/
   // --ion-color-primary: #3880ff;
-  --ion-color-primary: white;
+  --ion-color-primary: red;
   --ion-color-primary-rgb: 56, 128, 255;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255, 255, 255;
@@ -76,7 +76,7 @@
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
 
-  --ion-background-color: #11181F;
+  --ion-background-color: white;
   --ion-background-color-rgb: 255,255,255;
 
   --ion-text-color: #000000;
@@ -251,6 +251,9 @@
 
   ion-title.title-large {
     --color: white;
+  }
+  ion-toolbar {
+    --color: #0C1B32;
   }
   
 }

@@ -1,7 +1,7 @@
 
 
 <ion-content [fullscreen]="true">
-  <mat-toolbar>
+  <mat-toolbar style="background-color: #0C1B32;">
     
     <mat-toolbar-row>
       <h1 style="font-weight: bolder;font-size: 30px;">Rooms</h1>
@@ -11,117 +11,95 @@
   </mat-toolbar>
 
   <div class="room-list">
-    <h1>Room List</h1>
-    <mat-card style=" background-color:#4f5b62;">
+    <h2>Room List</h2>
+
+    <mat-card (click)= "goAnOtherPage()" class="mat1">
       <div class="left">
-        <img src="assets/images/living-room.png" style="width: 70px; height: 70px;margin-top: 5px;margin-left: 10px;"/>
+        <img src="assets/images/living-room.png" style="width: 70px; height: 70px;margin-top: 20px;margin-left: 10px;"/>
       </div>
       <div class="right">
-        <h3 style="padding-left: 20px;">Living Room</h3>
-        <div class="t1">
-          
-          <div class="t3"> <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">emoji_objects</mat-icon><br>Lights
-          </div>
+        <h3 style="padding-left: 20px; color:grey;">Living Room</h3>
+
+        <mat-grid-list cols="4"  >
+          <div class="gl">
+          <mat-card class="abc" style="background-color: red;"> <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon" style="color: white;">emoji_objects</mat-icon><h3>Lights</h3>
+         </mat-card>
+         <mat-card class="abc"> <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">theaters</mat-icon><h3>Blinds</h3>
+         </mat-card>
+         <mat-card class="abc"> <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">flare</mat-icon><h3>Temp</h3>
+         </mat-card>
+         <mat-card class="abc"> <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">desktop_mac</mat-icon><h3>Tv</h3>
+         </mat-card>
         </div>
-        <div class="t1">
-          
-          <div class="t3"><mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">theaters</mat-icon><br>Blinds
-          </div>
-        </div>
-        <div class="t1">
-          <div class="t3"><mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">flare</mat-icon><br>Temp
-          </div>
-        </div>
-        <div class="t1">
-          <div class="t3"><mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">desktop_mac</mat-icon><br>Tv
-          </div>
-        </div>
-      
+        </mat-grid-list>
       </div>
     </mat-card>
 
-    <mat-card style=" background-color:#4f5b62;">
+    <mat-card (click)= "goAnOtherPage2()" class="mat1">
       <div class="left">
-        <img src="assets/images/hotel.png" style="width: 70px; height: 70px;margin-top: 5px;margin-left: 10px;"/>
+        <img src="assets/images/hotel.png" style="width: 70px; height: 70px;margin-top: 20px;margin-left: 10px;"/>
       </div>
       <div class="right">
-        <h3 style="padding-left: 20px;">Bed Room</h3>
-        <div class="t1">
-          
-          <div class="t3"> <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">emoji_objects</mat-icon><br>Lights
+        <h3 style="padding-left: 20px;color:grey;">Bed Room</h3>
+
+        <mat-grid-list cols="4">
+          <div class="gl">
+          <mat-card class="abc"> <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">emoji_objects</mat-icon><h3>Lights</h3>
+         </mat-card>
+         <mat-card class="abc"> <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">theaters</mat-icon><h3>Blinds</h3>
+         </mat-card>
+         <mat-card class="abc"> <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">flare</mat-icon><h3>Temp</h3>
+         </mat-card>
+         <mat-card class="abc"> <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">desktop_mac</mat-icon><h3>Tv</h3>
+         </mat-card>
           </div>
-        </div>
-        <div class="t1">
-          
-          <div class="t3"><mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">theaters</mat-icon><br>Blinds
-          </div>
-        </div>
-        <div class="t1">
-          <div class="t3"><mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">flare</mat-icon><br>Temp
-          </div>
-        </div>
-        <div class="t1">
-          <div class="t3"><mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">desktop_mac</mat-icon><br>Tv
-          </div>
-        </div>
-      
+        </mat-grid-list>
       </div>
     </mat-card>
-    <mat-card style=" background-color:#4f5b62;">
+
+    <mat-card (click)= "goAnOtherPage3()" class="mat1">
       <div class="left">
-        <img src="assets/images/dinning-table.png" style="width: 70px; height: 70px;margin-top: 5px;margin-left: 10px;"/>
+        <img src="assets/images/dinning-table.png" style="width: 70px; height: 70px;margin-top: 20px;margin-left: 10px;"/>
       </div>
       <div class="right">
-        <h3 style="padding-left: 20px;">Dinning Hall</h3>
-        <div class="t1">
-          
-          <div class="t3"> <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">emoji_objects</mat-icon><br>Lights
-          </div>
+        <h3 style="padding-left: 20px;color:grey;">Dinning Room</h3>
+       
+        <mat-grid-list cols="4">
+          <div class="gl">
+          <mat-card class="abc"> <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">emoji_objects</mat-icon><h3>Lights</h3>
+         </mat-card>
+         <mat-card class="abc"> <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">theaters</mat-icon><h3>Blinds</h3>
+         </mat-card>
+         <mat-card class="abc"> <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">flare</mat-icon><h3>Temp</h3>
+         </mat-card>
+         <mat-card class="abc"> <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">desktop_mac</mat-icon><h3>Tv</h3>
+         </mat-card>
         </div>
-        <div class="t1">
-          
-          <div class="t3"><mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">theaters</mat-icon><br>Blinds
-          </div>
-        </div>
-        <div class="t1">
-          <div class="t3"><mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">flare</mat-icon><br>Temp
-          </div>
-        </div>
-        <div class="t1">
-          <div class="t3"><mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">desktop_mac</mat-icon><br>Tv
-          </div>
-        </div>
-      
+        </mat-grid-list>
       </div>
     </mat-card>
-    <mat-card style=" background-color:#4f5b62;">
+
+    <mat-card (click)= "goAnOtherPage1()" class="mat1">
       <div class="left">
-        <img src="assets/images/kitchen.png" style="width: 70px; height: 70px;margin-top: 5px;margin-left: 10px;"/>
+        <img src="assets/images/kit.png" style="width: 70px; height: 70px;margin-top: 20px;margin-left: 10px;"/>
       </div>
       <div class="right">
-        <h3 style="padding-left: 20px;">Kitchen</h3>
-        <div class="t1">
-          
-          <div class="t3"> <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">emoji_objects</mat-icon><br>Lights
-          </div>
-        </div>
-        <div class="t1">
-          
-          <div class="t3"><mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">theaters</mat-icon><br>Blinds
-          </div>
-        </div>
-        <div class="t1">
-          <div class="t3"><mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">flare</mat-icon><br>Temp
-          </div>
-        </div>
-        <div class="t1">
-          <div class="t3"><mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">desktop_mac</mat-icon><br>Tv
-          </div>
-        </div>
+        <h3 style="padding-left: 20px;color:grey;">Kitchen</h3>
       
+        <mat-grid-list cols="4">
+          <div class="gl">
+          <mat-card class="abc"> <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">emoji_objects</mat-icon><h3>Lights</h3>
+         </mat-card>
+         <mat-card class="abc"> <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">theaters</mat-icon><h3>Blinds</h3>
+         </mat-card>
+         <mat-card class="abc"> <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">flare</mat-icon><h3>Temp</h3>
+         </mat-card>
+         <mat-card class="abc"> <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">desktop_mac</mat-icon><h3>Tv</h3>
+         </mat-card>
+        </div>
+        </mat-grid-list>
       </div>
     </mat-card>
- 
 
   </div>
 </ion-content>

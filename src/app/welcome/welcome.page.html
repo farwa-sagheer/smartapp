@@ -1,0 +1,30 @@
+<!-- <ion-header>
+    <ion-navbar>
+        <ion-title>{{'sign_in' | translate}} <span class="text-theme">{{'sign_in_to_your_account' | translate}}</span></ion-title>
+    </ion-navbar>
+</ion-header> -->
+
+<ion-content class="bg-color signin">
+  <div class="logo-box " text-center>
+      <img src="assets/imgs/logo.png" class="">
+  </div>
+
+  <!-- <div class="btn-box d-flex" padding>
+      <button ion-button icon-only class="btn theme-btn" >
+          <ion-icon class="material-icons">arrow_forward</ion-icon>
+      </button>
+  </div> -->
+
+  <div padding class="text-white" style="position: absolute;
+  width: 100%;
+  bottom: 6vh; text-align: center; padding-top: 5px;">
+    <div>
+      <button ion-button color="primary" full large round style="margin-top:10px;" (click)="policy()">
+        Register
+      </button>
+      <button ion-button class="text-white" clear full style="margin-top:10px;" (click)="signin()">
+        Log In with Existing Account
+      </button>
+    </div>
+  </div>
+</ion-content>

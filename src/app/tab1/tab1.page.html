@@ -1,7 +1,7 @@
 
 
 <ion-content [fullscreen]="true" class="bg-image no-scroll">
-  <mat-toolbar>
+  <mat-toolbar style="background-color:#0C1B32;border-top: 1px solid white;">
     
     <mat-toolbar-row>
       <h1 style="font-weight: bolder;font-size: 30px;">Smart Home</h1>
@@ -10,11 +10,11 @@
     </mat-toolbar-row>
   </mat-toolbar>
 
-  <mat-grid-list cols="3" rowHeight="2:1"style="background-color:#4f5b62;">
+  <mat-grid-list cols="3" rowHeight="2:1"style="background-color:#0C1B32;">
     <mat-grid-tile >
       <div class="t1">
         <div   class="t2">
-          <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon" >gradient</mat-icon>
+          <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon" style="color: turquoise;">gradient</mat-icon>
         </div>
         <div class="t3">50%<br>Humidity
         </div>
@@ -23,7 +23,7 @@
     <mat-grid-tile>
       <div class="t1">
         <div class="t2" >
-          <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">wb_incandescent</mat-icon>
+          <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon" style="color: yellow;">wb_incandescent</mat-icon>
         </div>
         <div class="t3">72 F<br>Temprature
         </div>
@@ -32,18 +32,18 @@
     <mat-grid-tile>
       <div class="t1">
         <div class="t2">
-          <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">power</mat-icon>
+          <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon" style="color:#C75C5C;">power</mat-icon>
         </div>
         <div class="t3">1200 W<br>Power
         </div>
       </div>
     </mat-grid-tile>
   </mat-grid-list>
-  <mat-grid-list cols="3" rowHeight="2:1" style="border-top: 1px solid white;background-color:#4f5b62;">
+  <mat-grid-list cols="3" rowHeight="2:1" style="border-top: 1px solid white;background-color:#0C1B32;">
     <mat-grid-tile style="margin-left: 15px;">
       <div class="t1">
         <div class="t2">
-          <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon" style ="padding-left: -20px;;">keyboard_voice</mat-icon>
+          <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon" style ="padding-left: -20px;color: red;">keyboard_voice</mat-icon>
         </div>
         <div class="t3">Voice<br>Voice control.
         </div>
@@ -53,7 +53,7 @@
     <mat-grid-tile style="margin-left:100px;">
       <div class="t1" >
         <div class="t2">
-          <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">add_circle_outline</mat-icon>
+          <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon" style="color: seagreen;">add_circle_outline</mat-icon>
         </div>
         <div class="t3" >Add <br>Add devices.
         </div>
@@ -62,12 +62,12 @@
   </mat-grid-list>
 
 <div style=" margin-top: -10px;">
-  <h1 style="color: white; margin-left: 15px;">DEVICES</h1>
+  <h3 style="color: #0C1B32; margin-left: 15px;">Devices</h3>
   <mat-grid-list cols="3" style="margin-top: -10px;" >
     <mat-grid-tile>
       <div class="r1">
         <div   class="r2">
-          <img src="assets/images/living-room.png" style="width: 50px; height: 50px;"/>
+          <img src="assets/images/lamp.png" style="width: 50px; height: 50px;"/>
         </div>
         <br>
         <div class="r3">Lights
@@ -77,7 +77,7 @@
     <mat-grid-tile>
       <div class="r1">
         <div   class="r2">
-          <img src="assets/images/hotel.png" style="width: 50px; height: 50px;"/>
+          <img src="assets/images/fan.png" style="width: 50px; height: 50px;"/>
         </div>
         <br>
         <div class="r3">Fans
@@ -87,10 +87,10 @@
     <mat-grid-tile>
       <div class="r1">
         <div   class="r2">
-          <img src="assets/images/dinning-table.png" style="width: 50px; height: 50px;"/>
+          <img src="assets/images/led-tv.png" style="width: 50px; height: 50px;"/>
         </div>
         <br>
-        <div class="r3">Door Lock
+        <div class="r3">TV
         </div>
       </div>
     </mat-grid-tile>
@@ -99,7 +99,7 @@
     <mat-grid-tile>
       <div class="r1">
         <div   class="r2">
-          <img src="assets/images/kitchen.png" style="width: 50px; height: 50px;"/>
+          <img src="assets/images/microwave.png" style="width: 50px; height: 50px;"/>
         </div>
         <br>
         <div class="r3">Oven
@@ -109,10 +109,10 @@
     <mat-grid-tile>
       <div class="r1">
         <div   class="r2">
-          <img src="assets/images/hotel.png" style="width: 50px; height: 50px;"/>
+          <img src="assets/images/iron.png" style="width: 50px; height: 50px;"/>
         </div>
         <br>
-        <div class="r3">Blinds
+        <div class="r3">Iron
         </div>
       </div>
     </mat-grid-tile>
@@ -122,35 +122,36 @@
 </div>
 
 <div style="margin-top: -15px;">
-  <h1 style="color: white; margin-left: 15px;">MOODS</h1>
+  <h3 style="color: #0C1B32; margin-left: 15px;">Shared Devices</h3>
   <mat-grid-list cols="3" style="margin-top: -15px;">
     <mat-grid-tile>
       <div class="r1">
         <div   class="r2">
-          <mat-icon class="example-iconn" aria-hidden="false" aria-label="Example user verified icon">sentiment_very_satisfied</mat-icon>
+          <img src="assets/images/light.png" style="width: 50px; height: 50px;"/>
+         
         </div>
         <br>
-        <div class="r3">Chill
+        <div class="r3">Dimmer
         </div>
       </div>
     </mat-grid-tile>
     <mat-grid-tile>
       <div class="r1">
         <div   class="r2">
-          <mat-icon class="example-iconn" aria-hidden="false" aria-label="Example user verified icon">sentiment_very_dissatisfied</mat-icon>
+          <img src="assets/images/sensor.png" style="width: 50px; height: 50px;"/>
         </div>
         <br>
-        <div class="r3">Sad
+        <div class="r3">Sensor
         </div>
       </div>
     </mat-grid-tile>
     <mat-grid-tile>
       <div class="r1">
         <div   class="r2">
-          <mat-icon class="example-iconn" aria-hidden="false" aria-label="Example user verified icon">emoji_nature</mat-icon>
+          <img src="assets/images/camera.png" style="width: 50px; height: 50px;"/>
         </div>
         <br>
-        <div class="r3">Nature
+        <div class="r3">Camera
         </div>
       </div>
     </mat-grid-tile>

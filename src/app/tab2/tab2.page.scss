@@ -44,7 +44,10 @@ ion-content {
 }
 .example-icon {
   // padding: 0 14px;
-  color: white;
+  color: #C7CAD2;
+  font-size: 30px;
+  text-align: center;
+
  
 }
 
@@ -54,9 +57,9 @@ ion-content {
 .room-list{
  
 }
-.room-list h1{
+.room-list h2{
   margin-left: 15px;
-  color: white;
+  color: grey;
 }
 .room-list mat-card{
   margin-top: 10px;
@@ -104,5 +107,33 @@ ion-content {
 .right{
   margin-left: 25%; 
   margin-top: -80px;
+  
+}
+.abc{
+  width: 60px;
+  float: left;
+  height: 60px;
+  // margin-left: 10px;
+  background-color:white;
+  
+}
+.abc h3{
+font-size: 15px;
+ font-weight: bold;
+ width: 60px;
+text-align: left;
+color: grey;
+}
+.mat1{
+  height: 150px;
+  background-color:white;
+//  box-shadow:inset 0 -3em 3em rgba(0,0,0,0.1), 
+//   0 0  0 1px rgb(255,255,255),
+//   0.3em 0.3em 1em rgba(0,0,0,0.3);
+} 
+.gl{
+  margin-top: -10px;
+  display: flex;
+  justify-content: space-between;
   
 }
