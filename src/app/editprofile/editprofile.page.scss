@@ -1,3 +1,39 @@
-.ion-toolbar {
-    background-color: yellowgreen;
+
+.circular--square {
+    border-radius: 50%;
+    box-shadow: 0 0 15px  rgba(0, 0, 0, 0.5);
+  }
+ 
+  .circular--square {
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+  }
+  .edit{
+      display: flex;
+      justify-content: center;
+      margin-top: 80px;
+  }
+  .example-icen{
+      margin-left: -30px;
+      margin-top: 130px;
+      font-size: 35px;
+      color: grey;
+  }
+  .xyz{
+      width: 100% !important;
+      box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
+     margin-top: 5px;
+
+
+     
+  }
+  textarea.mat-input-element {
+   margin-left: 10px;
+    color: grey;
+    justify-content: center;
 }
+
+  
+ 

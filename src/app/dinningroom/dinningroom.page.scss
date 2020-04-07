@@ -36,7 +36,7 @@
     --ion-color-base: transparent !important;
   }
   ion-content {
-    --ion-background-color: #11181F;
+    --ion-background-color: white;
   }
   .example-icon {
     // padding: 0 14px;
@@ -76,8 +76,12 @@
   }
   .r1{
     border: solid 1px white;
-    width:100px;
-    background-color:#4f5b62;
+  width:100px;
+  background-color:white;
+  border-radius: 4px;
+  box-shadow:inset 0 -3em 3em rgba(0,0,0,0.1), 
+  0 0  0 1px rgb(255,255,255),
+  0.3em 0.3em 1em rgba(0,0,0,0.3);
    }
    .r2{
      display:flex;
@@ -87,7 +91,7 @@
     
    }
    .r3{
-      color: white; 
+      color: grey; 
       font-weight: bold;
       font-size: 15px;
      text-align: center;

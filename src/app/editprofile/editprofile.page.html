@@ -1,10 +1,38 @@
 
 
 <ion-content>
-<mat-card style="background-color: #0C1B32;display: flex;">
-  <mat-icon  (click)="goAnOtherPage()"  class="example-iconnn" aria-hidden="false" aria-label="Example user verified icon"  style="margin-top: 8px;background-color: tomato;">keyboard_arrow_left</mat-icon>
-  <p style="font-size:20px;font-weight: bold;background-color: pink;margin-left: 10px;margin-top: -1px;">Edit Profile</p>
-</mat-card>
+  
+  <mat-toolbar style="background-color:#0C1B32; box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);">
+    
+    <mat-toolbar-row >
+      <mat-icon (click)="goAnOtherPage()" class="example-icon" aria-hidden="false" aria-label="Example user verified icon">keyboard_arrow_left</mat-icon>
+      <h1 style="font-size: 25px;margin-left: 10px;">Edit Profile</h1>
+    </mat-toolbar-row>
+  </mat-toolbar>
+
+  <div class="edit">    
+    <img src="assets/images/buzz.jpg" class="circular--square" style="width: 180px; height:180px;"/>
+    <mat-icon class="example-icen" aria-hidden="false" aria-label="Example user verified icon">add_a_photo</mat-icon>
+  </div>
+  <form class="example-form" style="margin-top: 30px;">
+    <mat-form-field class="xyz">
+      <mat-icon  matPrefix style="font-size:35px; color:grey; margin-left: 10px;">perm_identity</mat-icon>
+      <textarea matInput value="ABC"></textarea>
+      <mat-icon matSuffix style="font-size:30px; color: grey; margin-right: 10px;">mode_edit</mat-icon>
+    </mat-form-field>  <mat-form-field class="xyz">
+      <mat-icon  matPrefix style="font-size:35px; color:grey; margin-left: 10px;">remove_circle_outline</mat-icon>
+      <textarea matInput value="About"></textarea>
+      <mat-icon matSuffix style="font-size:30px; color: grey; margin-right: 10px;">mode_edit</mat-icon>
+    </mat-form-field>  <mat-form-field class="xyz">
+      <mat-icon  matPrefix style="font-size:35px; color:grey; margin-left: 10px;">phone_in_talk</mat-icon>
+      <textarea matInput value="+92 346548974"></textarea>
+      <mat-icon matSuffix style="font-size:30px; color: grey; margin-right: 10px;">mode_edit</mat-icon>
+    </mat-form-field>
+  
+    
+  </form> 
+
+  
    
 
 </ion-content>
